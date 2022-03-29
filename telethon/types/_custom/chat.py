@@ -12,6 +12,7 @@ from .inputmessage import InputMessage
 from .button import build_reply_markup
 from ..._misc import utils, helpers, tlobject, markdown, html
 from ... import _tl, _misc
+from ..._sessions.types import Entity
 
 
 if TYPE_CHECKING:
